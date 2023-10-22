@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 72%;
+
+    
+}
+
+
+.banner {
+    width: 100%;
+    background-color: white;
+    min-height: 68vh;
+    
+  
+    
+    
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar h3 {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 25px;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background:  rgba(236, 23, 23, 0.836);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.mainbody {
+    margin-top: 70px;
+}
+
+
+.mainbody h4 {
+    font-size: 15px;
+    color:  rgba(236, 23, 23, 0.836); 
+    letter-spacing: 1px;
+}
+
+.mainbody h1 {
+    font-size: 65px;
+}
+
+.mainbody button {
+    width: 120px;
+    height: 39px;
+    background-color: rgba(236, 23, 23, 0.863);
+    border: 0 solid rgba(236, 23, 23, 0.836);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.mainbody button:hover {
+    background-color: rgba(218, 45, 45, 0.616);
+
+
+
+}
+
+.mainbody a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    margin-top: 30px;
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: 50% 50%;
+    flex-wrap: wrap;
+
+}
+
+.parent {
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+
+}
+
+.child {
+    width: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2.5px 2.5px 1px rgba(0, 0, 0, 0.048);  
+}
+
+.cardimg {
+    height: 150px;
+    overflow: hidden;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.cardbody p {
+    text-align: justify;
+    padding: 0px 10px;
+    margin: 14px 0 14px 0;
+}
+
+
+.cardbody h4 {
+    font-size: 18px;
+    padding: 0px 10px;
+    margin-top: 14px;
+}
+
+
+
+.grandchild {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.grandchild p {
+    color: rgba(128, 128, 128, 0.897);
+}
+
+.grandchild a {
+    text-decoration: none;
+    color: rgb(18, 141, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
+
